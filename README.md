@@ -3,15 +3,15 @@
 # 安装
 
 ```bash
-npm i -S seentao-browser-type
+npm i -S browser-type-version
 
-yarn seentao-browser-type
+yarn add browser-type-version
 ```
 
 # 使用
 
 ```bash
-import getBrowserTypeAndVersion from 'seentao-browser-type';
+import getBrowserTypeAndVersion from 'browser-type-version';
 
 console.log(getBrowserTypeAndVersion())
 
