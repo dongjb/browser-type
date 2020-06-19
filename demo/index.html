@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>判断浏览器类型</title>
+    <style lang="text/css">
+      body {
+        text-align: center;
+        padding-top: 40px;
+      }
+
+      #root > div {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      input {
+        width: calc(100% - 130px);
+        height: 40px;
+        border-radius: 4px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        font-size: 16px;
+        vertical-align: top;
+      }
+
+      #detection {
+        vertical-align: top;
+        width: 120px;
+        height: 40px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      #show {
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div><input id="input" /> <button id="detection">检测</button></div>
+      <div id="show">
+        当前浏览器类型: <span id="type"></span>，版本号: <span id="version"></span>
+      </div>
+    </div>
+  </body>
+</html>

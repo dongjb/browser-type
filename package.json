@@ -1,0 +1,37 @@
+{
+  "name": "browser-type-version",
+  "version": "1.0.0",
+  "description": "判断当前浏览器类型",
+  "main": "lib/index.es.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build": "rollup -c"
+  },
+  "author": {
+    "name": "dongjb",
+    "email": "dongjb@seentao.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acornjs/acorn.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "rollup": "^2.17.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "license": "ISC"
+}
