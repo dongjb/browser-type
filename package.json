@@ -5,6 +5,7 @@
   "main": "lib/index.es.js",
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build-demo": "webpack --config ./config/webpack.prod.js",
     "build": "rollup -c"
   },
   "author": {
