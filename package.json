@@ -1,6 +1,6 @@
 {
   "name": "browser-type-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "判断当前浏览器类型",
   "main": "lib/index.es.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "author": {
     "name": "dongjb",
-    "email": "dongjb@seentao.com"
+    "email": "dongjb0502@outlook.com"
   },
   "repository": {
     "type": "git",
